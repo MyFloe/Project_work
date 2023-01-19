@@ -150,7 +150,7 @@ void PrintArray(int[] array) //Вывод массива на экран
     Console.WriteLine();
 }
 
-int ReadInt(string message)  //Функция ввода
+int ReadInt(string message)  //Функция ввода/
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
